@@ -5,7 +5,7 @@
 - The OSI model consists of seven layers which are illustrated in the diagram below. Each layer has a different set of responsibilities and is arranged from Layer 7 to Layer 1.
 - At every individual layer that data travels through, specific processes take place, and pieces of information are added to this data
 -
-                        ![[download (15) 1.png]]
+                        !https://drive.google.com/file/d/1pVWNVcFcz_aqR2mp0T-ALflM6N37WUB0/view?usp=drive_link
 *Have you ever wondered what happens behind the scenes when you fire a shot in Call of Duty and it lands on a player halfway across the world? How does your action become data and travel through the internet so fast?But what actually happens behind the scenes from your tap... to the bullet hitting the enemy? Its done using the OSI Model.*
 
 
