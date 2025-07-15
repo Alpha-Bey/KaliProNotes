@@ -7,7 +7,7 @@ The **OSI** model (Open Systems Interconnection Model) is a foundational model u
 ## 🖼 OSI Model Layers Diagram
 
 <p align="center">
-  <img src="images/osi_layers.png" alt="OSI Model Layers" width="600"/>
+  <img src="images/osi_layers.png" alt="OSI Model Layers" width="200"/>
 </p>
 
 > Have you ever wondered what happens when you fire a shot in Call of Duty and it hits a player halfway across the world? How does your action become data and travel through the internet so fast? The OSI Model helps explain this journey.
