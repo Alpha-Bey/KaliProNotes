@@ -6,7 +6,9 @@ The **OSI** model (Open Systems Interconnection Model) is a foundational model u
 
 ## 🖼 OSI Model Layers Diagram
 
-![OSI Model Layers](images/osi_layers.png)
+<p align="center">
+  <img src="images/osi_layers.png" alt="OSI Model Layers" width="600"/>
+</p>
 
 > Have you ever wondered what happens when you fire a shot in Call of Duty and it hits a player halfway across the world? How does your action become data and travel through the internet so fast? The OSI Model helps explain this journey.
 
@@ -45,7 +47,9 @@ Converts all data into signals (Wi-Fi waves, cables, fiber) to be transmitted.
 
 ## 🎮 COD HUD Visualization
 
-![COD HUD Example](images/cod_hud.jpg)
+<p align="center">
+  <img src="images/cod_hud.jpg" alt="COD HUD" width="600"/>
+</p>
 
 This shows the practical output of your action once the server processes your data and sends the result back to your game client.
 
