@@ -36,13 +36,7 @@
 - Use console to manipulate DOM and bypass UI restrictions.
 - Test for client-side validation bypass (e.g., minimum length checks).
 
-## 📷 Visual References
 
-![Chrome DevTools Overview](https://developer.chrome.com/blog/images/devtools-homepage.png)
-
-![Inspecting Elements in Browser](https://i.imgur.com/2y6kXJu.png)
-
-![Network Panel Showing API Calls](https://i.imgur.com/jJQ5LlT.png)
 
 ## ✅ Summary
 
