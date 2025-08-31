@@ -135,8 +135,9 @@ Consider a scenario when user A wants to connect with client B over the Internet
 When the first email was sent in 1971, we had a different cyber security landscape. Email protocols such as SMTP and POP3 are designed to send emails in cleartext. The same applies to IMAP, which allows synchronizing your mailbox with that on the server. All these protocols make your email no different than an exposed postcard open for everyone to see as it is handed from one server to another.
 
 The image below shows a simplified example where a user uses an email client to send their email over SMTP and receive new email messages over POP3 or IMAP. The mail server uses SMTP to deliver the user’s email messages to the intended recipient. Since all these protocols use clear text, an intruder can read the email messages as they travel across the Internet.
-
-![Network diagram showing how SMTP is used to send email and how POP3 is used to retrieve email.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/6cf8953835d91c3889ec3e51dbb20b21.png)
+<p align="center">
+  <img src="images/diagram1.png" alt="diagram1" width="200"/>
+</p>
 
 With the increased popularity of web-based email, users started to connect to a web server to read and compose their email messages. The image below shows an email message as it is written using a web browser. The web server, in turn, uses a mail server to send composed email messages and receive incoming ones. The connection was over HTTP, which meant that the same security issues related to confidentiality and integrity persisted.
 
