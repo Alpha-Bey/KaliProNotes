@@ -141,17 +141,24 @@ The image below shows a simplified example where a user uses an email client to 
 
 With the increased popularity of web-based email, users started to connect to a web server to read and compose their email messages. The image below shows an email message as it is written using a web browser. The web server, in turn, uses a mail server to send composed email messages and receive incoming ones. The connection was over HTTP, which meant that the same security issues related to confidentiality and integrity persisted.
 
-![A simple network diagram showing how webmail works using HTTP and SMTP](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/23da18a37a955ab916250d3f2a5496b8.png)
+<p align="center">
+  <img src="images/diagram2.png" alt="diagram2" />
+</p>
 
 However, as service providers realized the need for SSL/TLS to secure web traffic, HTTPS became the new standard. Consequently, most web-based email systems migrated to HTTPS, causing the traffic between the web browser and the web server to be encrypted. However, the email traffic is not necessarily encrypted between the web server and the mail server(s). The web server and mail servers can read the contents of the messages; moreover, mail servers might use SMTP to transfer the messages, which means that email messages will traverse the Internet in cleartext.
 
-![A simple network diagram showing how webmail works using HTTPS and SMTP or SMTPS](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/55d996d0d8b73b61232db81e51c45cb5.png)
+<p align="center">
+<img src="images/diagram3.png" alt="diagram3" />
+</p>
+
 
 Eventually, SSL/TLS started to find their way into all email protocols. SMTP, POP3, and IMAP became SMTPS, POP3S, and IMAPS, respectively. The “S” added to the protocol name refers to **secure**, indicating the addition of SSL/TLS on top of the existing protocol.
 
 The image below shows a simplified example where a mail client uses SMTPS to send an email and uses POP3S or IMAPS to receive an email. The result is that email is sent encrypted between the client and the server; however, the mail server can read the email message contents.
 
-![Network diagram showing how SMTPS is used to send email securely and how POP3S is used to retrieve email securely.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/ad9e412e946ecbe7b8aa82ccdb55cb42.png)
+<p align="center">
+  <img src="images/diagram4.png" alt="Network diagram showing how SMTPS is used to send email securely and how POP3S is used to retrieve email securely" />
+</p>
 
 *The addition of SSL/TLS has dramatically enhanced the security of email messages. However, we must still trust the mail servers across the way. If this is not something you are comfortable with, you need to consider a standard such as OpenPGP.* 
 *PGP (Pretty Good Privacy) is an encryption program created by Phil Zimmerman.*
