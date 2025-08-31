@@ -136,7 +136,7 @@ When the first email was sent in 1971, we had a different cyber security landsca
 
 The image below shows a simplified example where a user uses an email client to send their email over SMTP and receive new email messages over POP3 or IMAP. The mail server uses SMTP to deliver the user’s email messages to the intended recipient. Since all these protocols use clear text, an intruder can read the email messages as they travel across the Internet.
 <p align="center">
-  <img src="images/diagram1.png" alt="diagram1" width="200"/>
+  <img src="images/diagram1.png" alt="diagram1" />
 </p>
 
 With the increased popularity of web-based email, users started to connect to a web server to read and compose their email messages. The image below shows an email message as it is written using a web browser. The web server, in turn, uses a mail server to send composed email messages and receive incoming ones. The connection was over HTTP, which meant that the same security issues related to confidentiality and integrity persisted.
